@@ -10,4 +10,4 @@ data <- rbind(data_old, data_new)
 data <- unique(data)
 
 # save data as csv
-fwrite(data, file = "kaggle_dataset.csv")
+fwrite(data, file = "classictrader.csv")
