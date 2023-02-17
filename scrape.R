@@ -140,7 +140,7 @@ data <- data %>%
   ) %>%
   select(
     # clean up
-    -c(mileage, mileage_num, mileage_unit)
+    -c(mileage_num, mileage_unit)
   )
 
 # -----------------------------------------------------------------------------.
