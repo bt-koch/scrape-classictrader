@@ -6,6 +6,10 @@ if(!require(tidyverse)) install.packages("tidyverse", repos = "http://cran.us.r-
 if(!require(rvest)) install.packages("rvest", repos = "http://cran.us.r-project.org")
 if(!require(data.table)) install.packages("data.table", repos = "http://cran.us.r-project.org")
 
+library(tidyverse)
+library(rvest)
+library(data.table)
+
 # objects
 data <- data.table()
 
